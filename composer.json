@@ -1,0 +1,14 @@
+{
+    "name": "edgarmendozatech/trackables",
+    "description": "Trackables",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edgar Mendoza",
+            "email": "edgar16nm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
