@@ -10,5 +10,19 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EdgarMendozaTech\\Trackables\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EdgarMendozaTech\\Trackables\\TrackablesServiceProvider"
+            ]
+        }
+    }
 }
